@@ -1,0 +1,7 @@
+# dsh-file-manager bundle layer: mount the host half.
+#
+# The browser half travels with the package's `dsh.client` declaration
+# (exports["./client"]), so one host row is all this bundle needs.
+- insert:
+    - id: file-manager
+      name: dsh-file-manager

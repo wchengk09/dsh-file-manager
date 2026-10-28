@@ -1,0 +1,7 @@
+node_modules/
+.pnpm-store/
+.plugin-manager/
+*.bak.*
+*.log
+.DS_Store
+.env
